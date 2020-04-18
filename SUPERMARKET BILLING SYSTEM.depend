@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1573625445 source:d:\#programming\c++\programs\supermarket billing system\main.cpp
+	<iostream>
+	<string>
+	<time.h>
+	"windows.h"
+	"color.cpp"
+	<fstream>
+
+1573625456 d:\#programming\c++\programs\supermarket billing system\color.cpp
+	<iostream>
+	"windows.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

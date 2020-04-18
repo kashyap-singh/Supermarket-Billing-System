@@ -1,0 +1,60 @@
+#HEADER FILES:
+   * iostream--Contains function prototype for I/O operations.
+   * string--Contains functions prototype for String Operations
+   * time.h--To show Current Windows Time
+   * windows.h--Contains functions prototype for clearing screen
+   * color.cpp--Another file name in same directory which contains
+              some basic functions used in a program many times.
+
+#CLASSES:
+   * SUPERMARKET_BILLING_SYSTEM--SUPERMARKET_BILLING_SYSTEM class 
+                                 to take info of items purchased.
+
+   * CUSTOMER--Customer class to take info of a Customer
+   
+
+#FUNCTIONS:
+   NORMAL FUNCTION
+     * WELCOME(string )--To display Welcome Screen
+
+   CONSTRUCTOR
+     * CUSTOMER()--Constructor to take Info of Customer
+
+   FRIEND FUNCTION
+     * friend void Info(CUSTOMER,SUPERMARKET_BILLING_SYSTEM)--friend 
+        Function for CUSTOMER and SUPERMARKET_BILLING_SYSYTEM class
+
+   MEMBER FUNCTION
+     *  void HOME_SCREEN()--Home screen
+     *  int  BILLREPORT(int)--Function which shows the Bill Report
+     *  void ADD_ITEM()--Function to add item
+     *  void REMOVE_ITEM()--Function to Remove item
+     *  void END()--Function which shows the Ending message
+
+#VARIABLES:
+   CUSTOMER CLASS
+      * name---String type
+      * address--String type
+      * mail--String type
+      * age--int type                
+      * phno--long long int type
+      * gender--character type
+   SUPERMARKET_BILLING_SYSTEM CLASS
+      * item_name--string type array of size 10
+      * tax--float type array of size 10
+      * price--float type array of size 10
+      * quantity--int type array of size 10
+   STATIC MEMBER VARIABLE
+      * i--Static variable which counts the number of items in Cart
+
+#SOME OTHER FUNCTIONS:
+      * setcolor(int Forgc)--Change the color of text
+      * line1(int)--underline (type 1)
+      * line2(int)--underline (type 2)
+      * line3(int)--underline (type 3)
+      * gotoxy(int,int)--move cursor to specific point
+      * TIME()--current time of windows
+
+
+   
+        
